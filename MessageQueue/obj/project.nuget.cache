@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HnqAFBfjifM6170wORjFbDnAKH5a9Zp2gc3ds1/2ns96hFONzbM6NOLhqMv6ASvSZuur6EuPyntuIisSxpFUoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SnakeKD\\Desktop\\PISIO\\ImagesToPdf\\MessageQueue\\MessageQueue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SnakeKD\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\SnakeKD\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\SnakeKD\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

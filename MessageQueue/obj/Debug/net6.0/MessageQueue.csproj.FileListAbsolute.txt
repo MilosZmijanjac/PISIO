@@ -1,0 +1,12 @@
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\bin\Debug\net6.0\MessageQueue.deps.json
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\bin\Debug\net6.0\MessageQueue.dll
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\bin\Debug\net6.0\MessageQueue.pdb
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\MessageQueue.csproj.AssemblyReference.cache
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\MessageQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\MessageQueue.AssemblyInfoInputs.cache
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\MessageQueue.AssemblyInfo.cs
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\MessageQueue.csproj.CoreCompileInputs.cache
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\MessageQueue.dll
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\refint\MessageQueue.dll
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\MessageQueue.pdb
+C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf\MessageQueue\obj\Debug\net6.0\ref\MessageQueue.dll

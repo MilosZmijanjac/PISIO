@@ -1,0 +1,7 @@
+services:
+  ocrservice:
+    build:
+      context: C:\Users\SnakeKD\Desktop\PISIO\ImagesToPdf
+      dockerfile: OcrService/Dockerfile
+    image: ocrservice
+version: '3.4'

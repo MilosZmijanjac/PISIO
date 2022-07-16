@@ -1,0 +1,25 @@
+ ocrservice:
+    image: ${DOCKER_REGISTRY-}ocrservice
+    build:
+      context: .
+      dockerfile: OcrService/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - RABBIT_HOSTNAME=rabbitmq
+    restart: on-failure
+    depends_on:
+      - rabbitmq
+
+orderApi:
+    build: ./OrderApi
+    image: order.api
+    container_name: order.api
+    ports:
+      - 5000:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - RABBIT_HOSTNAME=rabbitmq
+    restart: on-failure
+    depends_on:
+      - rabbitmq

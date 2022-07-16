@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "to5Ges8f+am9Firu9XMsZAIDqe5OhuU6QMDxKSpJgC40t/oFucCtjsMu1r68qBh/rgeSpU2ND/Qna+IFmmZDug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SnakeKD\\Desktop\\PISIO\\ImagesToPdf\\DownloadService\\DownloadService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SnakeKD\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.7\\microsoft.aspnetcore.authentication.google.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

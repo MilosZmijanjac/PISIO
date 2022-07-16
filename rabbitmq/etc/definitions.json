@@ -1,0 +1,80 @@
+{
+  "rabbit_version": "3.10.5",
+  "rabbitmq_version": "3.10.5",
+  "product_name": "RabbitMQ",
+  "product_version": "3.10.5",
+  "users": [
+    {
+      "name": "upload_service",
+      "password_hash": "nVZF0APAitZiHZx9RxD8WtpR7aq+90D3EhPdmlS0P7EUwjXQ",
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "tags": [],
+      "limits": {}
+    },
+    {
+      "name": "guest",
+      "password_hash": "BYIodh3vb6hLKM36qgXDjf1m65ELZ0UL30z5a/yH8J13s3EA",
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "tags": ["administrator"],
+      "limits": {}
+    },
+    {
+      "name": "ocr_service",
+      "password_hash": "R1xuF5X6bvx5JH0p+0mnBYpFyJpIxgMPygAYHoPDWOVS1uO9",
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "tags": [],
+      "limits": {}
+    }
+  ],
+  "vhosts": [{ "name": "/" }],
+  "permissions": [
+    {
+      "user": "guest",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    },
+    {
+      "user": "upload_service",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    },
+    {
+      "user": "ocr_service",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    }
+  ],
+  "topic_permissions": [
+    {
+      "user": "ocr_service",
+      "vhost": "/",
+      "exchange": "",
+      "write": ".*",
+      "read": ".*"
+    },
+    {
+      "user": "upload_service",
+      "vhost": "/",
+      "exchange": "",
+      "write": ".*",
+      "read": ".*"
+    }
+  ],
+  "parameters": [],
+  "global_parameters": [
+    {
+      "name": "internal_cluster_id",
+      "value": "rabbitmq-cluster-id-o6n_bg6Y3eqJPwdYnp9qlg"
+    }
+  ],
+  "policies": [],
+  "queues": [],
+  "exchanges": [],
+  "bindings": []
+}
